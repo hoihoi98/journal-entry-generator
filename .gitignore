@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Streamlit
+.streamlit/
+
+# Entity data and app context (local user data, not for repo)
+entities/
+app_context.json
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
