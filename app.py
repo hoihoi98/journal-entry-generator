@@ -24,7 +24,7 @@ if not api_key:
     st.stop()
 
 
-client = openai.OpenAI(base_url="https://openrouter.ai/api/v1", api_key=api_key)
+client = openai.OpenAI(base_url="https://openrouter.ai/api/v1", api_key=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)
 
 MIME_TYPES = {"jpg": "image/jpeg", "jpeg": "image/jpeg", "png": "image/png", "webp": "image/webp"}
 
